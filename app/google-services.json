@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "47807238483",
+    "project_id": "users-8ccf8",
+    "storage_bucket": "users-8ccf8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47807238483:android:ab49ad02005e35e52bd1a6",
+        "android_client_info": {
+          "package_name": "com.example.lab43"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0ST98cFnxySC7_tc6oLs-sF_--2WanDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

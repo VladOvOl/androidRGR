@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.user.UserDetailsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/contentContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/photoImageView"
+                android:layout_width="235dp"
+                android:layout_height="265dp"
+                android:layout_marginTop="16dp"
+                tools:src="@drawable/ic_user_avatar" />
+
+
+            <EditText
+                android:id="@+id/userNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Введіть назву піци"
+                android:layout_marginHorizontal="30dp"/>
+
+
+            <EditText
+                android:id="@+id/userDetailsTextView"
+                android:text="Введіть склад інгрідієнтів"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"/>
+
+
+
+            <EditText
+                android:id="@+id/userDetailsTextViewPrice"
+                android:layout_width="match_parent"
+                android:text="Введіть ціну піци"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                tools:ignore="DuplicateIds" />
+
+            <EditText
+                android:text="Введіть посилання для фото піци"
+                android:id="@+id/userDetailsTextViewPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                tools:ignore="DuplicateIds" />
+
+
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="#EA751E"
+                android:text="Back"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/updateButton"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="#EA751E"
+                android:text="Update"
+                android:textAllCaps="true" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>
